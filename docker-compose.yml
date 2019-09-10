@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sampleweb:
+    image: akaichen05/sampleweb:latest
+    build:
+      context: .
+      dockerfile: SampleWeb/Dockerfile
